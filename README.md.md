@@ -1,0 +1,165 @@
+<!DOCTYPEhtml>
+
+<html>
+
+    `<head><title>`Curso de Html`</title></head>`
+
+    `<body>`
+
+ <fontface="Verbana">`<u><h1>``<big><strong>`Aprendendo o Basico de Html`</strong></big>``</h1></u>``</font>`
+
+<hr>
+
+<h2>Conteudo!</h2>
+
+    `<ul>`
+
+    `<li>`<ahref="#o que é">O que é HTML?`</a></li>`
+
+    `<li>`<ahref="#Como funciona">Como funciona o HTML`</a></li>`
+
+    `<li>`<ahref="#O que são">O que são tags`</a></li>`
+
+    `<li>`<ahref="#Principais">Principais tags do HTML`</a></li>`
+
+    `<li>`<ahref="#Atributo">O que é um atributo?`</a></li>`
+
+    `<ul>`
+
+    `<li>`<ahref="#Como Definir">Como definir um atributo`</a></li>`
+
+    `<li>`<ahref="#Tipos ">Tipos de Atributos`</a></li>`
+
+    `</ul>`
+
+    `</ul>`
+
+<h2id="o que é">O que é HTML?`</h2>`
+
+<p>Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto.  O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website. Portanto, ele serve para dar significado e organizar as informações de uma página na web. Sem isso, o navegador não saberia exibir textos como elementos ou carregar imagens e outros conteúdos.</p>
+
+<p>Os hipertextos são conjuntos de elementos conectados. Esses podem ser palavras, imagens, vídeos, documento, etc. Quando conectados, formam uma rede de informações que permite a comunicação de dados, organizando conhecimentos e guardando informações.</p>
+
+<p>Ao visitar uma página simples na web, você pode perceber que existem diferentes distribuições e tamanhos para títulos, parágrafos, imagens, vídeos e qualquer outro elemento. Essa estrutura é estabelecida através do HTML. No inicio da web, era comum encontrar sites apenas contendo textos e imagens simples, com estrutura básica e sem estilizações. Porém, nos dias atuais, muito dificilmente você encontrará sites que possuam apenas elementos HTML. Portanto, podemos considerar o HTML o “esqueleto” da sua página.</p>
+
+<p>Imagine então que além do esqueleto, é necessário ter o corpo. Para isso, temos então as linguagens CSS e o JavaScript, que em conjunto com HTML, formam a base para todos os websites atuais.</p>
+
+ <h2id="Como funciona">Como funciona o HTML`</h2>`
+
+<p>Através de um documento HTML, ou seja, um documento com a extensão .html ou .htm., o navegador faz a leitura do arquivo e renderiza o seu conteúdo para que o usuário final possa visualizá-lo. Os arquivos .html podem ser visualizados em qualquer navegador (como Google Chrome, Safari, ou Mozilla Firefox).</p>
+
+<p>Geralmente um site é composto por diversas páginas HTML, como por exemplo: um website que contenha três páginas (uma homepage, uma página de contato e uma página de produtos) receberá ao menos três documentos .html distintos, sendo uma para cada página do website.</p>
+
+<p>O código pode ser escrito através de qualquer editor de texto, como o próprio bloco de notas. Cada página consiste em uma série de tags (também chamados de elementos) que podem ser considerados os blocos de construção das páginas. Portanto, esses blocos são a maneira com a qual o HTML faz a marcação dos conteúdos, criando a hierarquia e a estrutura do mesmo, dividido entre seções, parágrafos, cabeçalhos, e outros.</p>
+
+<h2id="O que são">O que são tags`</h2>`
+
+<p>Através de qualquer editor de texto, como o Sublime Text, o NotePad++ ou até mesmo o bloco de notas, é possível criar um documento com a extensão .html que será renderizado pelos navegadores.</p>
+
+<p>Conforme explicado anteriormente, este documento consiste em uma série de tags. As tags são códigos que definem toda a estrutura da página, tais como o seu tamanho, a fonte da letra, as cores, as quebras de linha e etc. A maioria dos elementos do documento HTML são compostos por uma estrutura de abertura e uma de fachamento, como < tag > e < /tag >. Há também tags de estrutura única, como a  tag < br/> que realiza uma quebra de linha.</p>
+
+<p>Digamos que você queria escrever um paragrafo, chamamos então a tag < p>, escrevemos o paragrafo e finalmente fechamos a tag com < /p>:</p>
+
+<p><i>< p>Meu primeiro paragrafo.< /p></i></p>
+
+<p>Dessa forma, ao salvar o arquivo com a extensão .html e abri-lo em um navegador, você verá o parágrafo escrito na tela do navegador.</p>
+
+<h2id="Principais">Principais tags do HTML`</h2>`
+
+<p>Atualmente existem mais de 140 tags, mas algumas delas quase não são utilizadas. Dentre as mais utilizadas temos:</p>
+
+<ul><li><strong>< head ></strong> – local para declarar todas informações, como título e metadados</li>
+
+    `<li><strong>`< title>`</strong>` – define o título;`</li>`
+
+    `<li><strong>`< body >`</strong>` – local para declarar todos os elementos que irão compor o corpo da página;`</li>`
+
+    `<li><strong>`< h1>,< h2>,< h3>,< h4>,< h5 >e < h6> `</strong>`  – Tags para definir um título e subtítulos, variando de 1 a 6, sendo h1 o título mais importante e h6 o de menor importância;`</li>`
+
+    `<li><strong>`< p>`</strong>` – Tag para definir um parágrafo.+;`</li>`
+
+    `<li><strong>`< a>`</strong>`  – Tag de link, junto ao atributo href=”” é responsável pela principal característica da web;`</li>`
+
+    `<li><strong>`< header>`</strong>` – define um cabeçalho;`</li>`
+
+    `<li><strong>`< section>`</strong>` – define uma seção;`</li>`
+
+    `<li><strong>`< article>`</strong>` – define um artigo;`</li>`
+
+    `<li><strong>`< div>`</strong>` – define uma divisão;`</li>`
+
+    `<li><strong>`< footer>`</strong>` – define um rodapé;`</li>`
+
+    `<li><strong>`< nav>`</strong>` – define uma área de navegação (como menus);`</li>`
+
+    `<li><strong>`< table>`</strong>` – define uma tabela;`</li>`
+
+    `<li><strong>`< ol>`</strong>` – define uma lista ordenada;`</li>`
+
+    `<li><strong>`< ul>`</strong>` – define uma lista não ordenada;`</li>`
+
+    `<li><strong>`< li>`</strong>` – define o item de uma lista;`</li>`
+
+    `<li><strong>`< form>`</strong>` – define um formulário;`</li>`
+
+    `<li><strong>`< input>`</strong>` – define os campos do formulário;`</li>`
+
+    `<li><strong>`< textarea>`</strong>` – define uma área para o usuário digitar um texto;`</li>`
+
+    `<li><strong>`< button>`</strong>` – define um botão;`</li>`
+
+    `<li><strong>`< img>`</strong>` – permite inserir uma imagem no seu documento.`</li>`
+
+</ul>
+
+<h2id="Atributo">O que é um atributo?`</h2>`
+
+<p>Um atributo envolve uma informação adicional que nós comunicamos para a nossa tag, para que ela consiga cumprir seu papel ou função de maneira eficaz. Para entendermos melhor, pense neste exemplo: imagine que você precisa ir ao médico, pois está sentindo uma forte dor. Qual é o objetivo do médico? É te ajudar a se livrar da dor. Mas, para isso, o que você tem que informar pra ele? É necessário dizer onde a dor está ocorrendo, não é mesmo? Apenas com essa informação o médico conseguirá saber o que te receitar ou que tratamento realizar. Em outras palavras, somente com essa informação que ele conseguirá cumprir seu papel.</p>
+
+<p>Da mesma forma são as tags. Por exemplo: qual é a função de uma tag de imagem? É exibir a imagem. Mas, para isso, o que ela precisa saber? O caminho da imagem a ser exibida, e para isso usamos o atributo <strong>src</strong>.</p>
+
+<h3id="Como Definir">Como definir um atributo`</h3>`
+
+<p>Os atributos sempre serão informados na tag de abertura dos elementos. Podemos informar um atributo de duas maneiras:</p>
+
+<ol><li> Informando seu nome e um valor. Exemplo:</li>
+
+    `<p>`< h2 class="subtitle">Hcode Treinamentos< /h2>`</p>`
+
+    `<p>`No código acima informamos para a tag < h2> um atributo class (responsável por aplicar uma classe CSS ao elemento), depois um sinal de igual e entre aspas o nome da classe. Esse é o padrão seguido em todos os atributos que possuem um valor.`</p>`
+
+    `<li>`Informando apenas seu nome. Exemplo:`</li>`
+
+    `<p>`< input type="checkbox" checked>`</p>`
+
+    `<p>`No código acima nós criamos uma tag < input> do tipo checkbox e informamos para ela o atributo checked (responsável por definir se o elemento estará checado ou não). Contudo, perceba que informamos apenas seu nome, sem nenhum valor.`</p>`
+
+</ol>
+
+<h3id="Tipos">Tipos de Atributos`</h3>`
+
+<p>Podemos dividir os atributos em dois grupos: 1) atributos globais e 2) atributos específicos.</p>
+
+<h4>Atributos Globais</h4>
+
+<p>São atributos que todas as tags possuem acesso. Assim, eles podem ser definidos em qualquer elemento. Exemplo:</p>
+
+<p><i>< p title="Essa frase é sensacional">Que a Força esteja com você< /p></i></p>
+
+<h4>Atributos Específicos</h4>
+
+<p>São atributos que apenas uma ou algumas tags possuem acesso, são atributos próprios delas. Exemplo:</p>
+
+<p>< form action="register.php">
+
+    ...
+
+< /form>`</p>`
+
+<p>No código acima vemos o atributo action, que pode ser definido unicamente pela tag < form>, nenhuma outra tag (até o momento) tem acesso a esse atributo.</p>
+
+<p>Em conclusão, podemos dizer que assim como um piloto de avião necessita das coordenadas GPS para conseguir chegar ao seu destino, as tags precisam dos atributos para conseguir funcionar bem e assim chegar ao “destino” que todos nós queremos: produzir sites e sistemas profissionais e que sejam agradáveis de navegar.</p>
+
+    `</body>`
+
+</html>
